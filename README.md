@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:071426,50:1B3A7A,100:F6C85F&height=140&section=header&text=&fontSize=0" width="100%" alt="" />
 
-<img src="./assets/banner.png" alt="Starry Night inspired banner — Mohamed Adel El-Hadad" width="100%" />
+<img src="Van Gogh-Inspired Developer Nightscape.png" alt="Starry Night inspired banner — Mohamed Adel El-Hadad" width="100%" />
 
 <h1>Mohamed Adel El-Hadad</h1>
 
