@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="90" viewBox="0 0 900 90">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+      <stop offset="0"    stop-color="#38BDF8"/>
+      <stop offset="0.35" stop-color="#6366F1"/>
+      <stop offset="0.7"  stop-color="#8B5CF6"/>
+      <stop offset="1"    stop-color="#C084FC"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1800 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <text x="450" y="62" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="1" fill="url(#g)" filter="url(#blur)" opacity="0.55">
+    Mohamed Adel El-Hadad
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3.5s" repeatCount="indefinite"/>
+  </text>
+  <text x="450" y="62" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="1" fill="url(#g)">
+    Mohamed Adel El-Hadad
+  </text>
+</svg>
