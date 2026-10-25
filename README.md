@@ -1,5 +1,5 @@
 
-<div align="center"> <img src="starry-night-profile-banner.png" alt="Starry Night inspired banner — Mohamed Adel El-Hadad" width="100%" />
+<div align="center"> <img src="Van Gogh-Inspired Developer Nightscape.png" alt="Starry Night inspired banner — Mohamed Adel El-Hadad" width="100%" />
 Mohamed Adel El-Hadad
 Software Developer · Flutter · UI/UX Design
 Turning ideas into meaningful digital experiences.
