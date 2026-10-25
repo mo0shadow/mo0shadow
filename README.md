@@ -35,7 +35,7 @@
 
 ## ✦ About Me
 
-I'm an **IT graduate** passionate about building digital products where thoughtful design meets solid engineering.
+I'm **MO** , and I'm passionate about building digital products where thoughtful design meets solid engineering.
 
 My work sits at the intersection of **mobile development, product design, and business analysis**. I enjoy looking beyond the screen: understanding the problem, identifying user needs, exploring business goals, shaping the experience, and turning the result into a functional mobile application.
 
