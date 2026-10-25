@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="0.5" stop-color="#1E1B4B"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <radialGradient id="orb">
+      <stop offset="0" stop-color="#C4B5FD" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#6366F1" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="120" fill="url(#bg)"/>
+
+  <!-- glowing orbs -->
+  <circle cx="200" cy="60" r="50" fill="url(#orb)">
+    <animate attributeName="r" values="40;62;40" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="55" r="70" fill="url(#orb)">
+    <animate attributeName="r" values="55;80;55" dur="6.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1000" cy="62" r="50" fill="url(#orb)">
+    <animate attributeName="r" values="40;62;40" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- twinkling stars -->
+  <g filter="url(#glow)" fill="#DCE8FF">
+    <circle cx="60"   cy="30" r="1.8"><animate attributeName="opacity" values="0.15;1;0.15" dur="3s"   repeatCount="indefinite"/></circle>
+    <circle cx="140"  cy="90" r="1.4"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="260"  cy="25" r="2"  ><animate attributeName="opacity" values="0.15;1;0.15" dur="3.6s" begin="1s"   repeatCount="indefinite"/></circle>
+    <circle cx="340"  cy="85" r="1.5"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.8s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="430"  cy="35" r="1.6"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.2s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="520"  cy="95" r="2"  ><animate attributeName="opacity" values="0.15;1;0.15" dur="2.6s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="690"  cy="28" r="1.7"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.4s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="780"  cy="88" r="1.5"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.2s" begin="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="860"  cy="40" r="2"  ><animate attributeName="opacity" values="0.15;1;0.15" dur="3.8s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="930"  cy="95" r="1.4"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.9s" begin="1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1090" cy="30" r="1.8"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.1s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="85" r="1.5"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.5s" begin="0.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- sparkles -->
+  <g filter="url(#glow)" fill="#A78BFA">
+    <g transform="translate(380,60)"><path d="M0,-9 L2,-2 L9,0 L2,2 L0,9 L-2,2 L-9,0 L-2,-2 Z"><animateTransform attributeName="transform" type="scale" values="0.5;1.3;0.5" dur="3s" repeatCount="indefinite"/></path></g>
+    <g transform="translate(820,58)"><path d="M0,-9 L2,-2 L9,0 L2,2 L0,9 L-2,2 L-9,0 L-2,-2 Z"><animateTransform attributeName="transform" type="scale" values="1.2;0.5;1.2" dur="3.5s" repeatCount="indefinite"/></path></g>
+    <g transform="translate(1040,60)" fill="#38BDF8"><path d="M0,-7 L1.5,-1.5 L7,0 L1.5,1.5 L0,7 L-1.5,1.5 L-7,0 L-1.5,-1.5 Z"><animateTransform attributeName="transform" type="scale" values="0.6;1.4;0.6" dur="4s" repeatCount="indefinite"/></path></g>
+  </g>
+
+  <!-- shooting star -->
+  <g opacity="0">
+    <line x1="0" y1="0" x2="-70" y2="-16" stroke="#DCE8FF" stroke-width="2" stroke-linecap="round"/>
+    <animateTransform attributeName="transform" type="translate" values="250,10;750,105" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite"/>
+  </g>
+</svg>
